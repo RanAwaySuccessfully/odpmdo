@@ -1,0 +1,44 @@
+{
+    "name": "odpmdo",
+    "displayName": "ODPMD Obsidian",
+    "description": "A fork of One Dark Pro Monokai Darker theme with Obsidian-like coloring",
+    "version": "1.0.0",
+    "publisher": "no",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ODPMD Obsidian",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ODPMD Obsidian-color-theme.json"
+            }
+        ]
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#77B04F",
+        "theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "homepage": "https://github.com/RanAwaySuccessfully/odpmdo/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/RanAwaySuccessfully/odpmdo/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RanAwaySuccessfully/odpmdo.git"
+    },
+    "keywords": [
+        "vscode",
+        "theme",
+        "onedark",
+        "monokai",
+        "obsidian",
+        "darker"
+    ]
+}
