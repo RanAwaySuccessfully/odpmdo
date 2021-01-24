@@ -2,7 +2,7 @@
 
 A fork of [One Dark Pro Monokai Darker](https://github.com/eserozvataf/vscode-one-dark-pro-monokai-darker), with Obsidian-like code coloring.
 
-## Installation
+## Manual Installation
 See [releases](https://github.com/RanAwaySuccessfully/odpmdo/releases). Once downloaded, double-click the file OR run the command palette (`Ctrl/Command + Shift + P`) and look for **Extensions: Install from VSIX...**
 
 If you want to build the VSIX package yourself, open a new terminal and run:

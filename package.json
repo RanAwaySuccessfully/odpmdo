@@ -2,8 +2,8 @@
     "name": "odpmdo",
     "displayName": "ODPMD Obsidian",
     "description": "A fork of One Dark Pro Monokai Darker theme with Obsidian-like coloring",
-    "version": "1.0.0",
-    "publisher": "no",
+    "version": "1.0.1",
+    "publisher": "ranawaysuccessfully",
     "engines": {
         "vscode": "^1.52.0"
     },
