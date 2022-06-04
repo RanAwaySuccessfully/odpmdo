@@ -5,7 +5,6 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,3 +25,12 @@ jobs:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
           extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
+      - name: Github Release create, update, and upload assets
+        uses: meeDamian/github-release@v2.0.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.event.head_commit.message }}
+          name: v${{ github.event.head_commit.message }}
+          draft: true
+          files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
+          gzip: false
