@@ -28,7 +28,7 @@ jobs:
       - name: Github Release create, update, and upload assets
         uses: meeDamian/github-release@v2.0.3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_TOKEN }}
           tag: ${{ github.event.head_commit.message }}
           name: v${{ github.event.head_commit.message }}
           draft: true
