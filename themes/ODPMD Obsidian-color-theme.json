@@ -1,7 +1,14 @@
 {
 	"name": "ODPMD Obsidian",
 	"type": "dark",
+	"editor.bracketPairColorization.enabled": false,
 	"colors": {
+		"editorBracketHighlight.foreground1": "#BBBBBB",
+		"editorBracketHighlight.foreground2": "#BBBBBB",
+		"editorBracketHighlight.foreground3": "#BBBBBB",
+		"editorBracketHighlight.foreground4": "#BBBBBB",
+		"editorBracketHighlight.foreground5": "#BBBBBB",
+		"editorBracketHighlight.foreground6": "#BBBBBB",
 		"focusBorder": "#181a1f",
 		"input.background": "#1d1f23",
 		"dropdown.background": "#1d1f23",
@@ -18,6 +25,7 @@
 		"scrollbarSlider.hoverBackground": "#5a637580",
 		"scrollbarSlider.activeBackground": "#747d9180",
 		"editor.background": "#121212",
+		"editor.foreground": "#BBBBBB",
 		"editorWidget.background": "#181a1f",
 		"editor.selectionBackground": "#3e4451",
 		"editor.findMatchHighlightBackground": "#314365",
@@ -41,7 +49,6 @@
 		"tab.activeBackground": "#121212",
 		"tab.inactiveBackground": "#181a1f",
 		"tab.border": "#181a1f",
-		"editorGroup.background": "#181a1f",
 		"editorGroupHeader.tabsBackground": "#181a1f",
 		"editorGroup.border": "#181a1f",
 		"statusBar.foreground": "#9da5b4",
@@ -59,16 +66,9 @@
 		"titleBar.inactiveForeground": "#6b717d",
 		"titleBar.activeBackground": "#020202",
 		"titleBar.inactiveBackground": "#020202",
-		"notification.background": "#181a1f",
 		"statusBar.debuggingBackground": "#020202"
 	},
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#bbbbbbff",
-				"background": "#121212ff"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -412,7 +412,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#e5c07b",
 				"foreground": "#F8F8F0"
 			}
 		},
@@ -420,7 +419,6 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#56b6c2",
 				"foreground": "#F8F8F0"
 			}
 		},
@@ -492,7 +490,7 @@
 			"name": "Markup: Emphasis Punctuation",
 			"scope": "punctuation.definition.italic.markdown",
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "",
 				"foreground": "#696969"
 			}
 		},
@@ -514,7 +512,7 @@
 			"name": "Markdown: Bold Punctuation",
 			"scope": "punctuation.definition.bold.markdown",
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "",
 				"foreground": "#696969"
 			}
 		},
@@ -530,7 +528,7 @@
 			"name": "Markdown: Heading",
 			"scope": "punctuation.definition.heading.markdown",
 			"settings": {
-				"fontStyle": "none",
+				"fontStyle": "",
 				"foreground": "#696969"
 			}
 		},
